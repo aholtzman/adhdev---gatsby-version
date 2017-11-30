@@ -9,7 +9,6 @@ import Nav from '../components/Nav'
 const Container = styled.div`
   width: 80vw;
   height: 80vh;
-  border: 2px solid green;
   margin: auto;
   display: flex;
   margin-top: 60px;

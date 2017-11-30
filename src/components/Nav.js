@@ -23,6 +23,14 @@ const Bar = styled.div`
   h3 {
     color: white;
   }
+
+    h1 {
+      padding: 0;
+    }
+    @media (max-width: 500px) {
+      width: 100vw;
+      height: 250px;
+    }
 `
 
 const Links = styled.div`
@@ -39,22 +47,52 @@ const Links = styled.div`
       opacity: .6;
     }
   }
+
+  @media (max-width: 500px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+
+    a {
+      padding: 7px;
+    }
+  }
 `
 
 const Image = styled.img`
   width: 150px;
   height: 150px;
   margin-bottom: 80px;
+
+  @media (max-width: 500px) {
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+  }
+`
+
+const Head = styled.div`
+
+  @media (max-width: 500px) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
 `
 
 const Nav = () => {
   return (
     <Bar>
-      <Link to='/'>
-        <Image src={require('../images/logo.png')} />
-      </Link>
-      <h1>Adam Holtzman</h1>
-      <h3>front end developer</h3>
+      <Head>
+        <Link to='/'>
+          <Image src={require('../images/logo.png')} />
+        </Link>
+        <h1>Adam Holtzman</h1>
+      </Head>
+        <h3>front end developer</h3>
       <Links>
         <Link to='/about'>About</Link>
         <Link to='/projects'>Projects</Link>

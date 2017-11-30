@@ -5,9 +5,18 @@ const Container = styled.div`
   margin: auto;
   text-align: center;
 
+  h3 {
+    padding: 20px;
+  }
+
   img {
     padding: 8px;
     border: thin solid dimgrey;
+
+    @media (max-width: 1000px) {
+      width: 60%;
+      margin: 0;
+    }
   }
 `
 

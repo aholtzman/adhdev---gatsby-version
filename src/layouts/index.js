@@ -14,9 +14,20 @@ const Container = styled.div`
   margin-top: 60px;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 1000px) {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
 `
 
 const Display = styled.div`
+  display: flex;
   width: 100%;
   max-width: 900px;
   height: 100%;
@@ -24,6 +35,11 @@ const Display = styled.div`
   background-color: white;
   overflow: scroll;
   display: flex;
+
+  @media (max-width: 500px) {
+    width: 100vw;
+    height: 100%;
+  }
 `
 
 const TemplateWrapper = ({ children }) => (

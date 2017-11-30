@@ -7,6 +7,11 @@ const Container = styled.div`
   align-items: center;
   width: 200px;
   margin-top: 100px;
+
+  @media (max-width: 500px) {
+    margin: 0;
+    margin-top: 10px;
+  }
 `
 
 const SocialImg = styled.img`

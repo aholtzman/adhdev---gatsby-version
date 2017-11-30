@@ -7,8 +7,6 @@ const StyledPortfolio = styled.div`
   justify-content: space-around;
   align-items: stretch;
   flex-wrap: wrap;
-  background-color: #55658c;
-  border-bottom: 2px solid #303030;
 `
 
 class Portfolio extends Component {

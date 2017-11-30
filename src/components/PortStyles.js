@@ -10,7 +10,7 @@ export const Url = styled.a`
 `
 
 export const Image = styled.img`
-  width: 350px;
+  height: 200px;
   border: 1px solid grey;
 
   @media (max-width: 700px) {
@@ -25,7 +25,6 @@ export const Desc = styled.p`
 export const ItemWrap = styled.div`
   margin: 20px;
   padding: 10px;
-  border: 2px solid dimgrey;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -18,6 +18,7 @@ const Container = styled.div`
 
 const Display = styled.div`
   width: 100%;
+  max-width: 900px;
   height: 100%;
   padding: 30px;
   background-color: white;

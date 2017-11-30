@@ -20,7 +20,8 @@ const Display = styled.div`
   width: 100%;
   height: 100%;
   padding: 30px;
-  background-color: lightgrey;
+  background-color: white;
+  overflow: scroll;
 `
 
 const TemplateWrapper = ({ children }) => (

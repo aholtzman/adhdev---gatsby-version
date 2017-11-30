@@ -56,7 +56,7 @@ const Nav = () => {
       <Links>
         <Link to='/about'>About</Link>
         <Link to='/projects'>Projects</Link>
-        <a href='http://www.adamholtzman.com'>Artwork</a>
+        <a href='http://www.adamholtzman.com' target='_blank' rel="noopener noreferrer" >Artwork</a>
         <Link to='contact'>Contact</Link>
       </Links>
       <SocialBar />

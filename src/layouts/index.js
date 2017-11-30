@@ -47,8 +47,8 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="ADH - Front End Developer"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'portfolio for front end react gatsby styled-components web developer adam holtzman' },
+        { name: 'keywords', content: 'react javascript web developer' },
       ]}
     />
     <Nav />

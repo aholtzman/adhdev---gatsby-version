@@ -50,7 +50,9 @@ const Image = styled.img`
 const Nav = () => {
   return (
     <Bar>
-      <Image src={require('../images/logo.png')} />
+      <Link to='/'>
+        <Image src={require('../images/logo.png')} />
+      </Link>
       <h1>Adam Holtzman</h1>
       <h3>front end developer</h3>
       <Links>

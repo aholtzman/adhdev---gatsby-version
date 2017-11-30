@@ -1,13 +1,17 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import styled from 'styled-components'
+
+const Container = styled.div`
+  margin: auto;
+  text-align: center;
+`
 
 const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </div>
+  <Container>
+    <img src={require('../images/self.jpg')} />
+    <h2>Adam David Holtzman</h2>
+    <h3>Front end web developer specializing in React, Gatsby & Styled-Components</h3>
+  </Container>
 )
 
 export default IndexPage

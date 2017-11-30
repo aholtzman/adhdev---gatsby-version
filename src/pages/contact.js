@@ -1,12 +1,17 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import styled from 'styled-components'
+
+const Container = styled.div`
+  margin: auto;
+  text-align: center;
+`
 
 const Contact = () => (
-  <div>
-    <h1>Hi from the contact page</h1>
-    <p>Welcome to page contact</p>
-    <Link to="/">Go back to the homepage</Link>
-  </div>
+  <Container>
+    <h2>adhdeveloper @ gmail .com</h2>
+    <br></br>
+    <h3>providence, ri</h3>
+  </Container>
 )
 
 export default Contact

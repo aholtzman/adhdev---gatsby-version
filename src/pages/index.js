@@ -4,6 +4,11 @@ import styled from 'styled-components'
 const Container = styled.div`
   margin: auto;
   text-align: center;
+
+  img {
+    padding: 8px;
+    border: thin solid dimgrey;
+  }
 `
 
 const IndexPage = () => (

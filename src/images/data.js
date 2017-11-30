@@ -1,12 +1,12 @@
 const data = [
   {
   id: 1,
-  title: "Common Loon",
-  image: require('../images/cl.png'),
-  desc: "Website for the band Common Loon (work in progress)",
-  code: "React, React-Router, CSS Grid & Styled-Components",
-  role: "Design, Development & created the music video for 'The Coup'",
-  url: 'https://commonloon-heroku.herokuapp.com/'
+  title: "David Gremp",
+  image: require('../images/gremp.png'),
+  desc: "Website for the fine art photographer David Gremp",
+  code: "React, Gatsby, CSS Grid & Styled-Components",
+  role: "Design & Development",
+  url: 'http://davidgrempphotos.com/'
 },
 {
   id: 2,
@@ -19,19 +19,19 @@ const data = [
 },
 {
   id: 3,
-  title: "David Gremp",
-  image: require('../images/gremp.png'),
-  desc: "Website for the fine art photographer David Gremp",
+  title: "Common Loon",
+  image: require('../images/cl.png'),
+  desc: "Website for the band Common Loon (work in progress)",
   code: "React, React-Router, CSS Grid & Styled-Components",
-  role: "Design & Development",
-  url: 'http://davidgrempphotos.com/'
+  role: "Design, Development & created the music video for 'The Coup'",
+  url: 'https://commonloon-heroku.herokuapp.com/'
 },
 {
   id: 4,
   title: "ADH Development",
   image: require('../images/adhdev.png'),
   desc: "This website",
-  code: "React & Styled-Components",
+  code: "React, Gatsby & Styled-Components",
   role: "Design & Development",
   url: 'http://www.adamdavidholtzman.com'
 },

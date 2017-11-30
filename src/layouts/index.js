@@ -22,6 +22,7 @@ const Display = styled.div`
   padding: 30px;
   background-color: white;
   overflow: scroll;
+  display: flex;
 `
 
 const TemplateWrapper = ({ children }) => (

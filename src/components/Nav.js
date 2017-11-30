@@ -1,16 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
+import SocialBar from './SocialBar'
 
 const Bar = styled.div`
   width: 250px;
   height: 100%;
   background-color: #3f4040;
   padding: 30px;
-  margin-right: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
 
   h1 {
@@ -21,11 +22,6 @@ const Bar = styled.div`
 
   h3 {
     color: white;
-  }
-
-  img {
-    width: 150px;
-    height: 150px;
   }
 `
 
@@ -41,10 +37,16 @@ const Links = styled.div`
   }
 `
 
+const Image = styled.img`
+  width: 150px;
+  height: 150px;
+  margin-bottom: 80px;
+`
+
 const Nav = () => {
   return (
     <Bar>
-      <img src={require('../images/logo.png')} />
+      <Image src={require('../images/logo.png')} />
       <h1>Adam Holtzman</h1>
       <h3>front end developer</h3>
       <Links>
@@ -53,6 +55,7 @@ const Nav = () => {
         <a href='http://www.adamholtzman.com'>Artwork</a>
         <Link to='contact'>Contact</Link>
       </Links>
+      <SocialBar />
     </Bar>
   )
 }

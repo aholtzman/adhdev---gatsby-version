@@ -19,7 +19,8 @@ const Container = styled.div`
 const Display = styled.div`
   width: 100%;
   height: 100%;
-  border: 2px solid red;
+  padding: 30px;
+  background-color: lightgrey;
 `
 
 const TemplateWrapper = ({ children }) => (

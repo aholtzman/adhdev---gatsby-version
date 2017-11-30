@@ -7,5 +7,6 @@ injectGlobal`
   body {
     margin: 0;
     font-family: 'Nixie One', cursive;
+    background-color: dimgrey;
   }
 `

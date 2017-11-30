@@ -32,8 +32,12 @@ const Links = styled.div`
 
   a {
     text-decoration: none;
-    color: pink;
+    color: white;
     line-height: 50px;
+
+    &:hover {
+      opacity: .6;
+    }
   }
 `
 

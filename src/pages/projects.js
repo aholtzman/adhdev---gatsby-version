@@ -1,11 +1,10 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import data from '../images/data'
+import Portfolio from '../components/Portfolio'
 
 const Projects = () => (
   <div>
-    <h1>Hi from the project page</h1>
-    <p>Welcome to page projects</p>
-    <Link to="/">Go back to the homepage</Link>
+    <Portfolio data={data} />
   </div>
 )
 

@@ -6,7 +6,7 @@ injectGlobal`
 
   body {
     margin: 0;
-    font-family: 'Nixie One', cursive;
+    font-family: 'Nixie One', sans-serif;
     background-color: dimgrey;
   }
 `

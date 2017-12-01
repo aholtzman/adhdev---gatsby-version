@@ -65,6 +65,10 @@ const Image = styled.img`
   height: 150px;
   margin-bottom: 80px;
 
+  @media (max-width: 1500px) {
+    padding-top: 10px;
+  }
+
   @media (max-width: 500px) {
     margin: 0;
     width: 40px;

@@ -11,7 +11,7 @@ const Bar = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
 
   h1 {
@@ -86,13 +86,15 @@ const Head = styled.div`
 const Nav = () => {
   return (
     <Bar>
-      <Head>
-        <Link to='/'>
-          <Image src={require('../images/logo.png')} />
-        </Link>
-        <h1>Adam Holtzman</h1>
-      </Head>
-        <h3>front end developer</h3>
+      <div>
+        <Head>
+          <Link to='/'>
+            <Image src={require('../images/logo.png')} />
+          </Link>
+          <h1>Adam Holtzman</h1>
+        </Head>
+          <h3>front end developer</h3>
+      </div>
       <Links>
         <Link to='/about'>About</Link>
         <Link to='/projects'>Projects</Link>

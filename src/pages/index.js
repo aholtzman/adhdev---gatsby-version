@@ -12,6 +12,7 @@ const Container = styled.div`
   img {
     padding: 8px;
     border: thin solid dimgrey;
+    width: 80%;
 
     @media (max-width: 1000px) {
       width: 60%;

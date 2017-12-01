@@ -44,7 +44,7 @@ const Links = styled.div`
     line-height: 50px;
 
     &:hover {
-      opacity: .6;
+      color: lightgrey;
     }
   }
 

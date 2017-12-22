@@ -98,6 +98,28 @@ const data = [
   dates: '2010 - 2016',
   active: false
 },
+{
+  id: 10,
+  title: "(photographs)",
+  image: require('../images/inactive.png'),
+  desc: "Website for small art photography periodical, two primary design iterations and content updates.",
+  code: "Adobe GoLive",
+  role: "Design & Development",
+  url: '',
+  dates: '2004 - 2008',
+  active: false
+},
+{
+  id: 11,
+  title: "Reproductions Gallery",
+  image: require('../images/inactive.png'),
+  desc: "Online fine art photography gallery selling open edition prints at entry level pricing, five design and build iterations & contect updates as needed.",
+  code: "Adobe GoLive",
+  role: "Design & Development",
+  url: '',
+  dates: '2005 - 2008',
+  active: false
+},
 ]
 
 export default data

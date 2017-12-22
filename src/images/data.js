@@ -86,7 +86,18 @@ const data = [
   url: 'https://dot-draw.herokuapp.com',
   dates: '2017',
   active: true
-}
+},
+{
+  id: 9,
+  title: "2054 Press",
+  image: require('../images/inactive.png'),
+  desc: "Website for small art and photography book publisher, three major design iterations, occasional content updates.",
+  code: "Adobe Muse",
+  role: "Design & Development",
+  url: '',
+  dates: '2010 - 2016',
+  active: false
+},
 ]
 
 export default data

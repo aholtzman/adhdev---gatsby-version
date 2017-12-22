@@ -15,18 +15,10 @@ const Bar = styled.div`
   text-align: center;
 
   h1 {
-    padding-top: 10px;
     color: white;
     font-size: 25px;
   }
 
-  h3 {
-    color: white;
-  }
-
-    h1 {
-      padding: 0;
-    }
     @media (max-width: 500px) {
       width: 100vw;
       height: 250px;
@@ -97,7 +89,6 @@ const Nav = () => {
           </Link>
           <h1>Adam Holtzman</h1>
         </Head>
-          <h3>front end developer</h3>
       </div>
       <Links>
         <Link to='/about'>About</Link>

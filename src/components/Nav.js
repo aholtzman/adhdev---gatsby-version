@@ -38,13 +38,16 @@ const Links = styled.div`
     &:hover {
       color: lightgrey;
     }
+
   }
 
   @media (max-width: 500px) {
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    font-size: 10px;
 
     a {
       padding: 7px;

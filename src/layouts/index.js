@@ -45,10 +45,10 @@ const Display = styled.div`
 const TemplateWrapper = ({ children }) => (
   <Container>
     <Helmet
-      title="ADH - Front End Developer"
+      title="Adam David Holtzman Web & Book Design"
       meta={[
         { name: 'description', content: 'portfolio for front end react gatsby styled-components web developer adam holtzman' },
-        { name: 'keywords', content: 'react javascript web developer' },
+        { name: 'keywords', content: 'react javascript web developer book design, art artists' },
       ]}
     />
     <Nav />

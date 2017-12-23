@@ -17,6 +17,7 @@ class PortItem extends Component {
           />
           <TextWrap>
           <Title>{this.props.data.title}</Title>
+          <hr></hr>
           <h2>{this.props.data.dates}</h2>
           <hr></hr>
           <br></br>

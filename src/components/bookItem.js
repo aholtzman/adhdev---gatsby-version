@@ -10,6 +10,11 @@ class BookItem extends Component {
     return(
       <div>
         <h1>{this.props.data.title}</h1>
+        <h2>by {this.props.data.author}</h2>
+        <h3>{this.props.data.publisher}</h3>
+        <h3>{this.props.data.year}</h3>
+        <h3>{this.props.data.role}</h3>
+        <a href={this.props.data.url}>link</a>
       </div>
     );
   }

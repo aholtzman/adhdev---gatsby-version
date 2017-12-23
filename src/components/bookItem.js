@@ -1,4 +1,17 @@
 import React, { Component } from 'react'
+import styled from 'styled-components'
+import { Desc, ItemWrap, Title, Role, Url, TextWrap } from './PortStyles'
+
+const BookWrap = styled(TextWrap)`
+  background-color: #fcfdff;
+  border: thin solid black;
+  margin-bottom: 10px;
+`
+
+const PubDate = styled.div`
+  display: flex;
+  justify-content: center;
+`
 
 class BookItem extends Component {
   constructor(props) {
@@ -8,14 +21,16 @@ class BookItem extends Component {
 
   render() {
     return(
-      <div>
-        <h1>{this.props.data.title}</h1>
-        <h2>by {this.props.data.author}</h2>
-        <h3>{this.props.data.publisher}</h3>
-        <h3>{this.props.data.year}</h3>
-        <h3>{this.props.data.role}</h3>
-        <a href={this.props.data.url}>link</a>
-      </div>
+      <BookWrap>
+        <Title>{this.props.data.title}</Title>
+        <Role>by {this.props.data.author}</Role>
+        <PubDate>
+          <Desc>{this.props.data.publisher}</Desc>
+          <Desc>{this.props.data.year}</Desc>
+        </PubDate>
+        <Role>role: {this.props.data.role}</Role>
+        <Url href={this.props.data.url}>link</Url>
+      </BookWrap>
     );
   }
 }

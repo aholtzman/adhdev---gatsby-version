@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Title = styled.h1`
+export const Title = styled.h2`
   color: #202020;
 `
 
@@ -20,6 +20,7 @@ export const Image = styled.img`
 
 export const Desc = styled.p`
   font-size: 18px;
+  padding: 5px;
 `
 
 export const ItemWrap = styled.div`

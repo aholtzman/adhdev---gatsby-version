@@ -29,7 +29,7 @@ class BookItem extends Component {
           <Desc>{this.props.data.year}</Desc>
         </PubDate>
         <Role>role: {this.props.data.role}</Role>
-        { this.props.data.url && <Url href={this.props.data.url}>link</Url> }
+        { this.props.data.url && <Url href={this.props.data.url} target='_blank'>link</Url> }
       </BookWrap>
     );
   }

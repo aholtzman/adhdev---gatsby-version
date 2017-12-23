@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Desc, ItemWrap, Title, Role, Url, TextWrap } from './PortStyles'
 
 const BookWrap = styled(TextWrap)`
-  background-color: #fcfdff;
+  background-color: rgba(140, 140, 150, .1);
   border: thin solid black;
   margin-bottom: 10px;
 `
@@ -23,12 +23,13 @@ class BookItem extends Component {
     return(
       <BookWrap>
         <Title>{this.props.data.title}</Title>
+        <hr></hr>
         <Role>by {this.props.data.author}</Role>
         <PubDate>
           <Desc>{this.props.data.publisher}</Desc>
           <Desc>{this.props.data.year}</Desc>
         </PubDate>
-        <Role>role: {this.props.data.role}</Role>
+        <h4>role: {this.props.data.role}</h4>
         { this.props.data.url && <Url href={this.props.data.url} target='_blank'>link</Url> }
       </BookWrap>
     );

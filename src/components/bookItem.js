@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Desc, ItemWrap, Title, Role, Url, TextWrap } from './PortStyles'
 
 const BookWrap = styled(TextWrap)`
-  background-color: rgba(140, 140, 150, .1);
+  background: linear-gradient(#fff, rgba(140, 140, 150, .1));
   border: thin solid black;
   margin-bottom: 10px;
 `
@@ -29,6 +29,8 @@ class BookItem extends Component {
           <Desc>{this.props.data.publisher}</Desc>
           <Desc>{this.props.data.year}</Desc>
         </PubDate>
+        <h4>{this.props.data.description}</h4>
+        <h4>{this.props.data.spec}</h4>
         <h4>role: {this.props.data.role}</h4>
         { this.props.data.url && <Url href={this.props.data.url} target='_blank'>link</Url> }
       </BookWrap>

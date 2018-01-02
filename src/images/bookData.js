@@ -6,6 +6,8 @@ const data = [
   author: 'David Akiba',
   publisher: '',
   role: 'designer',
+  description: 'Artist book of Forty-five black and white landscape photographs made in Boston\'s Emerald necklace park system and other parks and woodlands in the Boston area.',
+  spec: '86 page, 12x12 inch, ring-bound, digital printing',
   url: 'http://www.magcloud.com/browse/issue/1297779',
 },{
   id: 2,
@@ -14,6 +16,8 @@ const data = [
   author: 'Adam Holtzman',
   publisher: '',
   role: 'designer, editor, artist',
+  description: 'Artist photography book with 60 illustrations space related projects.',
+  spec: '86 page, 12x12 inch, ring-bound, digital printing',
   url: 'http://www.magcloud.com/browse/issue/1219830',
 },{
   id: 3,
@@ -22,6 +26,8 @@ const data = [
   author: 'Adam Holtzman',
   publisher: '',
   role: 'designer, editor, artist',
+  description: 'Small artists book of flower polaroids and pastel colors, no text.',
+  spec: '10 pages, 5x7 inches, saddle stiched, self cover, digital printing.',
   url: 'http://www.magcloud.com/browse/issue/1347162',
 },{
   id: 4,

@@ -97,6 +97,7 @@ const Nav = () => {
         <Link to='/about'>About</Link>
         <Link to='/projects'>Web Projects</Link>
         <Link to='/books'>Book Design</Link>
+        <Link to='/stack'>Stack</Link>
         <a href='http://www.adamholtzman.com' target='_blank' rel="noopener noreferrer" >Artwork</a>
         <Link to='contact'>Contact</Link>
       </Links>

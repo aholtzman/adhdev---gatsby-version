@@ -1,6 +1,17 @@
 const data = [
   {
   id: 1,
+  year: '2018',
+  title: "From the Wings: Photographs from the Boston Ballet’s Fiftieth Season",
+  author: 'David Akiba',
+  publisher: '',
+  role: 'designer',
+  description: '"During the summer of 2013, my latent desire to photograph some aspect of the company’s productions became a persistent yearning . I received permission to begin shooting just before the "Night of Stars" performance on the Boston Common that drew an audience of 55,000. It was the first performance of the company’s fiftieth season. During the next nine months, I photographed performances and dress rehearsals from the wings and backstage. I spent hours in the studios during classes and rehearsals. I came to appreciate even more the dancers’ devotion to their art and the truly breathtaking moments that blossom from the rigor of their craft, the power of the choreography and the need to express emotion through dance." - David Akiba',
+  spec: '80 page, 12x12 inch, ring-bound, digital printing',
+  url: '',
+},
+  {
+  id: 1,
   year: '2017',
   title: 'Every Shadow Has a Name',
   author: 'David Akiba',

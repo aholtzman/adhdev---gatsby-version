@@ -9,7 +9,6 @@ class PortItem extends Component {
 
   render() {
     return(
-      <div>
         <ItemWrap>
           <Image
             src={this.props.data.image}
@@ -32,7 +31,6 @@ class PortItem extends Component {
           <Url href={this.props.data.url} target='_blank'>{this.props.data.url}</Url>
           </TextWrap>
         </ItemWrap>
-      </div>
     );
   }
 }

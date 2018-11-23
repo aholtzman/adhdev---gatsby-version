@@ -30,12 +30,11 @@ export const ItemWrap = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 350px;
+  width: 100%;
   background-color: white;
-
-  @media (max-width: 700px) {
-    width: 290px;
-  }
+  box-shadow: 5px 10px 20px #888888;
+  border: thin solid black;
+  border-radius: 5px;
 `
 
 export const Role = styled.h3`
@@ -46,7 +45,6 @@ export const TextWrap = styled.div`
   padding: 15px;
   padding-bottom: 20px;
   text-align: center;
-  width: 350px;
 
   @media (max-width: 700px) {
     width: 290px;

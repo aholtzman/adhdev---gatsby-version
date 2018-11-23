@@ -3,9 +3,12 @@ import styled from 'styled-components'
 import { Desc, ItemWrap, Title, Role, Url, TextWrap } from './PortStyles'
 
 const BookWrap = styled(TextWrap)`
-  background: radial-gradient(circle, white, rgba(140, 140, 150, .1),  rgba(140, 140, 150, .4));
+  background: #e6e6e6;
   border: thin solid black;
-  margin-bottom: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width:100%;
+  box-shadow: 5px 10px 20px #888888;
 `
 
 const PubDate = styled.div`
@@ -23,7 +26,6 @@ class BookItem extends Component {
     return(
       <BookWrap>
         <Title>{this.props.data.title}</Title>
-        <hr></hr>
         <Role>by {this.props.data.author}</Role>
         <PubDate>
           <Desc>{this.props.data.publisher}</Desc>

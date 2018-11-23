@@ -25,8 +25,7 @@ const IndexPage = () => (
   <Container>
     <img src={require('../images/self.jpg')} />
     <h2>Adam David Holtzman</h2>
-    <h3>Fine Art Photgraphy & Art Book Designer</h3>
-    <h3>Front End Web Developer specializing in React, Gatsby & Styled-Components</h3>
+    <h3>Fine Art Photgraphy – Art Book Designer – Front End Developer </h3>
   </Container>
 )
 
